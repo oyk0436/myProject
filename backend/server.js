@@ -71,7 +71,7 @@ app.post('/api/register', async (req, res) => {
   const newUser = new User({ email, password });
   await newUser.save();
 
-  res.json({ success: true, message: "회원가입 성공!" });
+  res.json({ success: true, message: "회원가입 성공1!" });
 });
 
 // 서버 실행
